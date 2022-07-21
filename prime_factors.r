@@ -4,7 +4,6 @@
 prime_sieve <- function(ulimit) {
     sieve <- c(rep(TRUE, ulimit))
 
-    i <- as.integer(sqrt(ulimit))
     for(x in 2:(ulimit / 2)) {
         for(y in 2:(ulimit / x)) {
             sieve[x * y] <- FALSE
