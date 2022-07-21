@@ -3,7 +3,7 @@ say_hello <- function() {
     print("hello")
 }
 
-sayHello()
+say_hello()
 
 # Start the Fibonacci sequence with [1, 1]
 fib_numbers <- c(1, 1)
